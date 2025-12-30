@@ -45,6 +45,10 @@ app.post('/posts', async (req, res) => {
   }
 });
 
+app.get("/posts", async (req,res) => {
+  
+})
+
 const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
